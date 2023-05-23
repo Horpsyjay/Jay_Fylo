@@ -181,7 +181,6 @@ border: 1px solid var(--error);
 .quote{
     margin-top: 4rem;
     max-width: 450px;
-    max-height: 350px;
     padding: 2rem;
     color: var(--comment);
     background: #fff;
@@ -349,8 +348,13 @@ border: 1px solid var(--error);
         padding: 3rem;
     }
 
+    .navlink{
+        gap: 0.8rem;
+
+    }
+
     #nav-logo{
-        max-width: 7rem;
+        max-width: 5rem;
     }
 
     .intro{
@@ -378,6 +382,10 @@ border: 1px solid var(--error);
         flex-direction: column;
     }
 
+        .quote{
+            margin-bottom: 3rem;
+        }
+
     .low_band{
         display: flex;
         flex-direction: column;
@@ -392,7 +400,8 @@ border: 1px solid var(--error);
     }
     
     .infield_2 input, #btn2{
-    width: 100%;
+        flex-direction: column;
+        width: 90%;
    }
    
    .footer_con{
