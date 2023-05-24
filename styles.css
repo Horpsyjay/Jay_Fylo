@@ -180,7 +180,7 @@ border: 1px solid var(--error);
 
 .quote{
     margin-top: 4rem;
-    max-width: 450px;
+    width: 450px;
     padding: 2rem;
     color: var(--comment);
     background: #fff;
@@ -338,23 +338,24 @@ border: 1px solid var(--error);
 }
 
 
-@media (max-width:760px){
+@media (max-width:769px){
 
     body{
         font-size: 1rem;
     }
     
     .nav{
-        padding: 3rem;
+        padding: 4rem;
+        gap: 2rem;
     }
 
     .navlink{
-        gap: 0.8rem;
+        gap: 1rem;
 
     }
 
     #nav-logo{
-        max-width: 5rem;
+        max-width: 3.5rem;
     }
 
     .intro{
