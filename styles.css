@@ -400,9 +400,9 @@ border: 1px solid var(--error);
         margin-top: 2rem;
     }
     
-    .infield_2 input, #btn2{
+    .infield_2 input{
         flex-direction: column;
-        width: 90%;
+        width: 100%;
    }
    
    .footer_con{
