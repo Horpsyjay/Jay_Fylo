@@ -346,18 +346,17 @@ border: 1px solid var(--error);
     
     .nav{
         padding: 4rem;
-        gap: 3rem;
+        gap: 1.5rem;
     }
 
     .navlink{
-        gap: 1rem;
-        width: max-content;
+        gap: 1.5rem;
+        
     }
 
     #nav-logo{
         padding-left: 1rem;
-        max-width: 4rem;
-        margin-left: 1rem;
+        max-width: 5rem;
     }
 
     .intro{
@@ -388,6 +387,7 @@ border: 1px solid var(--error);
         .quote{
             margin-bottom: 3rem;
             justify-content: center;
+            max-width: 350px;
         }
 
     .low_band{
@@ -403,9 +403,13 @@ border: 1px solid var(--error);
         margin-top: 2rem;
     }
     
-    .infield_2 input, #btn2{
+    .infield_2 input{
         flex-direction: column;
-        width: max-content;
+        width: 2rem 4rem;
+   }
+    
+   #btn2{
+    width: max-content;
    }
    
    .footer_con{
